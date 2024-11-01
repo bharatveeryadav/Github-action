@@ -50,6 +50,5 @@ jobs:
           git config --global user.name "bharatveeryadav"
           git add .
           git add $OUTPUT_DIR $README_FILE
-          git commit -m "Add repositories with topic '$TOPIC' and update README"
-          git pull origin main
+          git commit -m "Add repositories with topic '$TOPIC' and update README
           git push origin main
